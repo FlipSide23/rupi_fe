@@ -11,7 +11,7 @@ export const Footer = () => {
     <div className="mt-auto flex flex-col items-center w-full bg-white text-grey-601 px-8">
       <div className="flex flex-col max-w-6xl">
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-x-3 md:gap-x-20 lg:gap-x-32 gap-y-5 py-3">
-          <div className="col-span-full md:col-span-1 lg:col-span-2 flex flex-col">
+          <div className="col-span-full md:col-span-1 lg:col-span-2 flex flex-col space-y-3">
             <NavLink to="/">
               <img
                 src={logo}
@@ -21,12 +21,12 @@ export const Footer = () => {
                 height={188}
               />
             </NavLink>
-            <p className="leading-loose">
+            <p className="leading-tight text-sm">
               RUPI is an institution where professional urban planners
               meet to colaborate and form a network
             </p>
 
-            <div className="flex flex-wrap my-3 items-center space-x-3">
+            <div className="flex flex-wrap items-center space-x-3">
               {socialMedia.map((media, index) => (
                 <a
                   key={media.name}
@@ -75,7 +75,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-center px-8 py-3 w-full border-t border-[#14183E26]">
+      <p className="text-center px-8 py-3 w-full border-t border-[#14183E26] mt-3">
         &copy; Copyright RUPI | All right reserved
       </p>
     </div>
