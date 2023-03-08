@@ -2,6 +2,7 @@ import React from 'react';
 import { footerNavItems, socialMedia } from './data';
 import { NavLink } from 'react-router-dom';
 import logo from '../../../assets/images/icons/logo.jpg';
+import { partners } from '../Partners/data/partners';
 
 export const Footer = () => {
   const firstLinks = footerNavItems.slice(0, 8);
@@ -9,8 +10,17 @@ export const Footer = () => {
   return (
     <div className="mt-auto flex flex-col items-center w-full bg-white text-grey-601 px-8">
       <div className="flex flex-col max-w-6xl">
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-x-3 md:gap-x-20 lg:gap-x-32 gap-y-5 py-3">
-          <div className="col-span-full md:col-span-1 flex flex-col">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-x-3 md:gap-x-20 lg:gap-x-32 gap-y-5 py-3">
+          <div className="col-span-full md:col-span-1 lg:col-span-2 flex flex-col">
+            <NavLink to="/">
+              <img
+                src={logo}
+                alt=""
+                className="object-contain"
+                width={268}
+                height={188}
+              />
+            </NavLink>
             <p className="leading-loose">
               RUPI is an institution where professional urban planners
               meet to colaborate and form a network
@@ -29,16 +39,6 @@ export const Footer = () => {
                 </a>
               ))}
             </div>
-
-            <NavLink to="/">
-              <img
-                src={logo}
-                alt=""
-                className="object-contain"
-                width={268}
-                height={188}
-              />
-            </NavLink>
           </div>
 
           <div className="flex flex-col">
@@ -58,6 +58,17 @@ export const Footer = () => {
               {otherLinks.map((link, index) => (
                 <NavLink to={link.url} className="">
                   {link.label}
+                </NavLink>
+              ))}
+            </div>
+          </div>
+
+          <div className="flex flex-col">
+            <h3 className="font-bold text-dark-green">Partners</h3>
+            <div className="flex flex-col space-y-2 mt-3">
+              {partners.map((partner, index) => (
+                <NavLink to={partner.link} className="">
+                  {partner.name}
                 </NavLink>
               ))}
             </div>

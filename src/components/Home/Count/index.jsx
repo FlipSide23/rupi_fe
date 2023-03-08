@@ -14,16 +14,16 @@ export const Count = () => {
 
         <div className="grid md:grid-cols-3 gap-x-3 md:gap-x-10 gap-y-3 mt-6">
           <div className="flex flex-col space-y-2 items-center">
-            <p className="text-4xl md:text-6xl font-black">100+</p>
+            <p className="text-3xl md:text-4xl font-black">100+</p>
             <p className="">Partners</p>
           </div>
           <div className="flex flex-col space-y-2 items-center md:border-x border-white md:px-10">
-            <p className="text-4xl md:text-6xl font-black">300+</p>
+            <p className="text-3xl md:text-4xl font-black">300+</p>
             <p className="">Taken business legalities</p>
           </div>
 
           <div className="flex flex-col space-y-2 items-center">
-            <p className="text-4xl md:text-6xl font-black">8</p>
+            <p className="text-3xl md:text-4xl font-black">8</p>
             <p className="">Years of Journey</p>
           </div>
         </div>
