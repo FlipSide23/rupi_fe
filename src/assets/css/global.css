@@ -12,3 +12,13 @@
     }
 
   }
+
+  .triangle-up {
+	width: 0;
+	height: 0;
+	border-right: 108px solid transparent;
+	border-bottom: 144px solid #FFF;
+}
+.active{
+    @apply border-b-[2px] border-white
+}
