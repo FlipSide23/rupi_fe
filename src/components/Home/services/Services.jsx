@@ -12,14 +12,14 @@ export const Services = () => {
       <p className="py-6 text-sm text-neutral-400">
         Let's do great work together
       </p>
-      <div className="mt-4">
-        <div className="flex justify-center mb-12">
+      <div className="mt-4 flex md:flex-col space-x-6 md:space-x-0 justify-center">
+        <div className="flex justify-center mb-3 md:mb-12 flex-col md:flex-row">
           {Object.keys(services).map((i, index) => {
             const service = services[i];
             const isLast = Object.keys(services).length - 1 == index;
             return (
               <div
-                className="flex items-center"
+                className="flex items-center flex-col md:flex-row"
                 key={index}
                 onClick={() => setSelectedService(i)}
               >
@@ -28,31 +28,32 @@ export const Services = () => {
                     selectedService == i ? "bg-green" : "bg-white"
                   }`}
                 ></div>
+
                 {!isLast && dots}
               </div>
             );
           })}
         </div>
-        <div className="flex flex-row justify-center space-x-12">
+        <div className="flex flex-col justify-start space-y-7 md:space-y-0 md:flex-row md:justify-center md:space-x-28 text-left md:text-center">
           {Object.keys(services).map((i, index) => {
             const service = services[i];
             return (
-              <p
+              <NavLink
+                to={service.url}
                 className={`text-sm font-semibold cursor-pointer ${
                   selectedService == i ? "text-green" : ""
                 }`}
                 key={index}
-                onClick={() => setSelectedService(i)}
               >
                 {service.title}
-              </p>
+              </NavLink>
             );
           })}
         </div>
       </div>
       <div className="text-center mt-12">
         <NavLink
-          to={services[selectedService].url}
+          to="/services"
           className="text-sm underline text-green font-semibold flex justify-center text-center items-center space-x-4"
         >
           <span>See More</span>
