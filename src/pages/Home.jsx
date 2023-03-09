@@ -1,10 +1,10 @@
 import React from 'react';
-import Layout from '../components/Layout';
-import { Subscribe } from '../components/Home/Subscribe/index.';
-import { Partners } from '../components/Home/Partners';
-import { Count } from '../components/Home/Count';
-import { Why } from '../components/Home/Why';
-import { MembershipFees } from '../components/Home/MembershipFees';
+import Layout from '../components/Layout/Layout';
+import { Subscribe } from '../components/Home/Subscribe/Subscribe';
+import { Partners } from '../components/Home/Partners/Partners';
+import { Count } from '../components/Home/Count/Count';
+import { Why } from '../components/Home/Why/Why';
+import { MembershipFees } from '../components/Home/MembershipFees/MembershipFees';
 
 export const Home = () => {
   return (

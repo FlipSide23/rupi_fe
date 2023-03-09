@@ -1,6 +1,6 @@
 import React from 'react';
 import { pricingData } from './data';
-import PricingCard from './PricingCard';
+import PricingCard from './PricingCard/PricingCard';
 
 export const MembershipFees = () => {
   return (

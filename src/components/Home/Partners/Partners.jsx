@@ -1,6 +1,6 @@
 import React from 'react';
 import FastMarquee from 'react-fast-marquee';
-import Partner from './Partner';
+import Partner from './Partner/Partner';
 
 export const Partners = () => {
   return (

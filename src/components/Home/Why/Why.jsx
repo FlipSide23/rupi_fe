@@ -1,6 +1,6 @@
 import React from 'react';
 import { whyData } from './data';
-import WhyCard from './WhyCard';
+import WhyCard from './WhyCard/WhyCard';
 
 export const Why = () => {
   return (
