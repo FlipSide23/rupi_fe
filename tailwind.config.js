@@ -10,7 +10,7 @@ module.exports = {
 
     extend: {
       colors: {
-        green: '008D41',
+        green: '#008D41',
         current: 'currentColor',
       },
 
