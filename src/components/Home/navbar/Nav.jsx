@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
-import { Header } from "./Header";
-import logo from "../../../assets/images/icons/logo.jpg";
-import { menuITems } from "./data";
-import { NavLink } from "react-router-dom";
+import { useEffect, useState } from 'react';
+import { Header } from './Header';
+import logo from '../../../assets/images/icons/logo.jpg';
+import { menuITems } from './data';
+import { NavLink } from 'react-router-dom';
 import {
   FaBars,
   FaFacebookSquare,
@@ -10,9 +10,9 @@ import {
   FaPhoneAlt,
   FaRegTimesCircle,
   FaTwitterSquare,
-} from "react-icons/fa";
-import { PreNav } from "./PreNav";
-import MobileMenu from "./components/MobileMenu";
+} from 'react-icons/fa';
+import { PreNav } from './PreNav';
+import MobileMenu from './components/MobileMenu';
 
 export const Nav = () => {
   const [isSticky, setSticky] = useState(false);
@@ -32,9 +32,9 @@ export const Nav = () => {
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
@@ -44,7 +44,11 @@ export const Nav = () => {
         <div className="absolute top-0 left-0 right-0 z-10">
           <div className="flex">
             <div className="h-36 flex pl-8 py-2 bg-white">
-              <img src={logo} alt="RUPI Logo" className="h-32 object-fill" />
+              <img
+                src={logo}
+                alt="RUPI Logo"
+                className="h-32 object-fill"
+              />
             </div>
             <div className="relative w-full">
               <div className="h-36 absolute top-0 left-0 bottom-0">
