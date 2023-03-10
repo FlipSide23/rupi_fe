@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 const OurMission = () => {
   return (
     <div className="mt-auto flex flex-col items-center w-full bg-white px-8 py-6 md:py-12">
-      <div className="flex flex-col gap-4 md:justify-between md:items-center items-start md:flex-row max-w-6xl w-full">
+      <div className="flex flex-col gap-4 md:gap-x-16 md:justify-between md:items-center items-start md:flex-row max-w-6xl w-full">
         <div className="flex space-y-3 md:space-y-6 flex-col">
           <div className="flex items-center space-x-2">
             {[1, 2, 3, 4, 5].map(item => (
@@ -18,7 +18,7 @@ const OurMission = () => {
             “Our mission is to connect the best and talented
             professional urban planners from all over the world.”
           </p>
-          <div className="flex space-x-2 items-start">
+          <div className="flex space-x-4 items-start">
             <img
               src={avatar}
               alt=""
@@ -35,16 +35,18 @@ const OurMission = () => {
           </div>
         </div>
 
-        <div className="flex flex-wrap w-full md:max-w-[30%] gap-y-5 gap-x-[3%]">
+        <div className="flex flex-wrap w-full md:max-w-[30%] gap-y-4 gap-x-[4%] md:mx-auto">
           {membersData.map((member, index) => (
             <NavLink
               to="#"
-              className="shrink-0 flex flex-col w-[47%]"
+              className="shrink-0 flex flex-col w-[46%]"
             >
               <img
                 src={member.image}
                 height={member.height}
-                className={`${member.top && 'mt-auto'}`}
+                className={`${member.top && 'mt-auto'} ${
+                  index > 1 && 'md:-translate-x-4'
+                }`}
                 alt=""
               />
             </NavLink>

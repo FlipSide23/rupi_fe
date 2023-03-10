@@ -17,17 +17,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -39,17 +39,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -61,17 +61,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -83,17 +83,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -105,17 +105,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -127,17 +127,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -155,17 +155,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -177,17 +177,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -200,17 +200,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -222,17 +222,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -244,17 +244,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -266,17 +266,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -294,17 +294,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -316,17 +316,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -338,17 +338,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -360,17 +360,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -382,17 +382,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -404,17 +404,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -432,17 +432,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -454,17 +454,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -476,17 +476,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -499,17 +499,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -521,17 +521,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -543,17 +543,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -571,17 +571,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -593,17 +593,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -615,17 +615,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -637,17 +637,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -659,17 +659,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
@@ -682,17 +682,17 @@ export const teamMembers = [
         social: [
           {
             name: 'Facebook',
-            icon: <FaFacebook size={32} />,
+            icon: <FaFacebook size={24} />,
             url: 'https://#',
           },
           {
             name: 'Twitter',
-            icon: <FaTwitter size={32} />,
+            icon: <FaTwitter size={24} />,
             url: 'https://#',
           },
           {
             name: 'Instagram',
-            icon: <FaInstagram size={32} />,
+            icon: <FaInstagram size={24} />,
             url: 'https://#',
           },
         ],
