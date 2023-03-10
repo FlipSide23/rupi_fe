@@ -6,14 +6,14 @@ import SubmitButton from './elements/SubmitButton';
 
 const Login = () => {
   return (
-    <div className="flex">
+    <div className="grid md:grid-cols-2">
       <div className="w-full p-12">
         <h1 className="text-3xl font-bold">Sign In</h1>
         <div className="flex items-center space-x-2 my-8">
           <div className="h-1.5 w-1/5 bg-black"></div>
           <p className="text-blue font-semibold">Sign in with</p>
         </div>
-        <div className="flex space-x-4 px-4 mb-10">
+        <div className="flex space-y-4 md:space-y-0 md:space-x-4 mb-10 flex-col md:flex-row">
           <GoogleButton />
           <FacebookButton />
         </div>
@@ -40,11 +40,11 @@ const Login = () => {
           </Link>
         </div>
       </div>
-      <div className="w-full h-[750px] hidden md:block">
+      <div className="w-full h-full hidden md:block">
         <img
           src="https://source.unsplash.com/random"
-          className="object-cover"
-          alt="sign in user"
+          className="object-cover h-full w-full"
+          alt="sign up user"
         />
       </div>
     </div>

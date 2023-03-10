@@ -12,7 +12,7 @@ import { Footer } from '../components/Home/Footer/Footer';
 export const Home = () => {
   return (
     <div>
-      <Nav />
+      {/* <Nav /> */}
       <Services />
       <About />
       <MembershipFees />
@@ -20,7 +20,7 @@ export const Home = () => {
       <Count />
       <Partners />
       <Subscribe />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

@@ -14,6 +14,12 @@ const Plan = ({ membership, onPrev, onNext, plan }) => {
 
   return (
     <div>
+      <div className="mb-12 text-center md:text-left">
+        <h1 className="text-lg font-semibold my-2">Choose Plan</h1>
+        <p className="text-sm">
+          Select a plan that is suitable for you
+        </p>
+      </div>
       <div>
         {membership === 'company' ? (
           <CompanyPlan onSelect={handleSelect} selected={selected} />

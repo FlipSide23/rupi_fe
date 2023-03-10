@@ -1,5 +1,5 @@
-import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Footer } from './components/Home/Footer/Footer';
+import { Nav } from './components/Home/navbar/Nav';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Blog } from './pages/Blog';
@@ -11,10 +11,13 @@ import { Disciplines } from './pages/Disciplines';
 import Application from './pages/application/Application';
 import SignUp from './pages/authentication/SignUp';
 import Login from './pages/authentication/Login';
+import { Route, Routes } from 'react-router-dom';
+import NotFoundPage from './pages/NotFound';
 
 export const App = () => {
   return (
-    <div>
+    <>
+      <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -27,7 +30,9 @@ export const App = () => {
         <Route path="/application" element={<Application />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
-    </div>
+      <Footer />
+    </>
   );
 };

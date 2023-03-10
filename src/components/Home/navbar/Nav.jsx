@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Header } from './Header';
 import logo from '../../../assets/images/icons/logo.jpg';
 import { menuITems } from './data';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import {
   FaBars,
   FaFacebookSquare,
@@ -38,11 +38,14 @@ export const Nav = () => {
     };
   }, []);
 
+  const location = useLocation();
+  const isHome = location.pathname === '/';
+
   return (
     <div>
       <div className="relative">
         <div className="absolute top-0 left-0 right-0 z-10">
-          <div className="flex">
+          <div className="flex shadow shadow-[#031f0e2e]">
             <div className="h-36 flex pl-8 py-2 bg-white">
               <img
                 src={logo}
@@ -77,7 +80,11 @@ export const Nav = () => {
                     </div>
                   </div>
                 </div>
-                <div className="h-full flex bg-[#031f0e2e]">
+                <div
+                  className={`h-full flex ${
+                    isHome ? 'bg-[#031f0e2e]' : 'bg-[#0b450c]'
+                  }`}
+                >
                   <div className="w-24 h-full bg-transparent"></div>
                   <div
                     className="flex md:hidden justify-end w-full items-center px-4 text-white text-2xl"
@@ -126,8 +133,8 @@ export const Nav = () => {
           </div>
         )}
 
-        <div className="pt-16">
-          <Header />
+        <div className={`${isHome ? 'pt-16' : 'pt-36'}`}>
+          {isHome && <Header />}
         </div>
       </div>
       {isSticky ? (

@@ -14,7 +14,7 @@ const MembershipCategory = ({ onNext, membership }) => {
         proceed
       </p>
       <div>
-        <div className="flex space-x-12 mt-8">
+        <div className="flex sm:space-x-12 mt-4 sm:mt-8 flex-col sm:flex-row justify-center md:justify-start">
           <div
             className={`shadow-lg py-4 px-6 rounded-lg flex items-center space-x-3 cursor-pointer my-4 ${
               selectedCategory == 'individual'
