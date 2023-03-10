@@ -3,12 +3,22 @@
 @tailwind utilities;
 
 @layer base {
-    *{
-        @apply box-border;
-    }
-    
-    body{
-        @apply  font-sans bg-white text-black m-0 p-0 text-base;
-    }
-
+  * {
+    @apply box-border;
   }
+
+  body {
+    @apply font-sans bg-white text-black m-0 p-0 text-base;
+  }
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-right: 108px solid transparent;
+  border-bottom: 144px solid #fff;
+}
+
+.active {
+  @apply border-b-[2px] border-white;
+}
