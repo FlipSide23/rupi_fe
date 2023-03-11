@@ -46,7 +46,7 @@ export const Nav = () => {
             <div className="h-36 flex pl-8 py-2 bg-white">
               <img src={logo} alt="RUPI Logo" className="h-32 object-fill" />
             </div>
-            <div className="relative w-full">
+            <div className="relative w-full" >
               <div className="h-36 absolute top-0 left-0 bottom-0">
                 <div className="triangle-up"></div>
               </div>
@@ -58,7 +58,7 @@ export const Nav = () => {
                       <FaPhoneAlt />
                       <p>+250788619790</p>
                     </div>
-                    <div className="hidden md:flex text-xl space-x-16">
+                    <div className="hidden md:flex text-xl space-x-16 hover:cursor-pointer">
                       <FaFacebookSquare />
                       <FaInstagramSquare />
                       <FaTwitterSquare />
@@ -82,7 +82,7 @@ export const Nav = () => {
                     {showMenu ? (
                       <FaRegTimesCircle className="text-red-700 text-3xl" />
                     ) : (
-                      <FaBars />
+                      <FaBars/>
                     )}
                   </div>
 

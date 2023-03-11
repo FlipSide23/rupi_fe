@@ -2,7 +2,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 export const About = () => {
   return (
-    <div className="p-4 md:p-16">
+    <div className="p-4 md:p-16" data-aos="fade-up">
       <div className="bg-[#EDF7FF] p-6 flex flex-col md:flex-row md:rounded-full rounded-3xl">
         <div className="bg-white py-20 px-24 rounded-full md:rounded-r-none mr-8 md:border-r-2 border-r-slate-400 hidden md:block">
           <h1 className="text-green font-bold text-xl md:text-2xl text-center md:text-left">

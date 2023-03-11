@@ -3,7 +3,7 @@ import React from 'react';
 export const Count = () => {
   return (
     <div className="text-white text-center py-6 md:py-12 mt-auto flex flex-col items-center w-full bg-brand-green px-8">
-      <div className="flex flex-col max-w-6xl">
+      <div className="flex flex-col max-w-6xl" data-aos="fade-left">
         <h1 className="text-3xl md:text-4xl font-bold tracking-wide max-w-4xl text-center mx-auto">
           Some count that matters
         </h1>

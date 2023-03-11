@@ -8,6 +8,7 @@ import { Count } from '../components/Home/Count/Count'
 import { Partners } from '../components/Home/Partners/Partners'
 import { Subscribe } from '../components/Home/Subscribe/Subscribe'
 import { Footer } from '../components/Home/Footer/Footer'
+import { BackToTop } from '../components/Global/BackToTop'
 
 export const Home = () => {
   return (
@@ -21,6 +22,7 @@ export const Home = () => {
       < Partners />
       < Subscribe />
       < Footer />
+      < BackToTop />
     </div>
   )
 }
