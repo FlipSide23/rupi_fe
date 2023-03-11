@@ -5,10 +5,11 @@ import ChooseFileField from '../../elements/ChooseFileField';
 import {
   FaRegEnvelope,
   FaSearchLocation,
-  FaThumbsUp,
   FaPhoneAlt,
   FaRegUser,
   FaNetworkWired,
+  FaBuilding,
+  FaLink,
 } from 'react-icons/fa';
 
 const CompanyInformation = () => {
@@ -25,7 +26,7 @@ const CompanyInformation = () => {
           <TextField
             label="Company Name"
             hint="Enter your the name here"
-            suffix={<FaThumbsUp />}
+            suffix={<FaBuilding />}
           />
           <TextField
             label="Company Location"
@@ -39,13 +40,42 @@ const CompanyInformation = () => {
             hint="Enter your email address here"
             suffix={<FaRegEnvelope />}
           />
-          <SelectTextField label="Years of Experience" hint="10" />
+          <SelectTextField
+            label="Years of Experience"
+            hint="10"
+            options={[
+              { value: '20', label: '> 10 years' },
+              { value: '10', label: '6-10 years' },
+              { value: '5', label: '3-5 years' },
+              { value: '2', label: '1-2 years' },
+              { value: '1', label: '< 1 year' },
+            ]}
+          />
         </div>
         <div className="flex md:space-x-10 flex-col md:flex-row">
-          <SelectTextField label="Staff Size" hint="1 - 5" />
+          <SelectTextField
+            label="Staff Size"
+            hint="1 - 5"
+            options={[
+              { value: '1', label: '1-5' },
+              { value: '2', label: '5-15' },
+              { value: '3', label: '16-30' },
+              { value: '4', label: '31-50' },
+              { value: '5', label: '51-100' },
+              { value: '6', label: 'Greater than 100' },
+            ]}
+          />
           <SelectTextField
             label="Number of Completed Projects"
             hint="45"
+            options={[
+              { value: '1', label: '1-5' },
+              { value: '2', label: '5-15' },
+              { value: '3', label: '16-30' },
+              { value: '4', label: '31-50' },
+              { value: '5', label: '51-100' },
+              { value: '6', label: '> 100' },
+            ]}
           />
         </div>
       </div>
@@ -60,7 +90,7 @@ const CompanyInformation = () => {
           <TextField
             label="Paste your Project Link"
             hint="therockassociates.com"
-            suffix={<FaThumbsUp />}
+            suffix={<FaLink />}
           />
           <div className="mt-3.5 flex items-center text-xs px-4 md:px-0 my-4 flex-row md:flex-col md:space-y-2">
             <div className="h-[1px] w-full md:h-full md:w-[1px] bg-slate-300 rounded-full mx-2 md:mx-0"></div>

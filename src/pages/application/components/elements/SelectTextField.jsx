@@ -1,22 +1,44 @@
-import { FaAngleDown } from 'react-icons/fa';
-const TextField = ({ label, hint }) => {
+import { useState } from 'react';
+import Select from 'react-select';
+
+const TextField = ({ label, hint, options }) => {
   const fieldId = label.split(' ').join('');
+
+  const [selectedOption, setSelectedOption] = useState();
+
+  const handleChange = option => {
+    setSelectedOption(option);
+  };
+
   return (
     <div className="flex flex-col space-y-2 my-2 md:my-4 w-full">
       <label htmlFor={fieldId} className="text-sm">
         {label}
       </label>
       <div className="relative">
-        <input
-          type="text"
-          id={fieldId}
-          name={fieldId}
+        <Select
           placeholder={hint}
-          className="text-sm px-4 py-2 rounded-full border w-full"
+          value={selectedOption}
+          onChange={handleChange}
+          options={options}
+          isSearchable={true}
+          styles={{
+            control: (baseStyles, state) => ({
+              ...baseStyles,
+              borderRadius: '25px',
+              padding: '0px 10px',
+              borderColor: 'bg-slate-500',
+            }),
+          }}
+          theme={theme => ({
+            ...theme,
+            colors: {
+              ...theme.colors,
+              // primary25: 'hotpink',
+              primary: '#008D41',
+            },
+          })}
         />
-        <span className="right-0 absolute top-0 bottom-0 flex items-center justify-center px-4 text-md text-slate-400">
-          <FaAngleDown />
-        </span>
       </div>
     </div>
   );

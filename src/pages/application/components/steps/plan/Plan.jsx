@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { defaultPlans } from '../../../../../components/Home/MembershipFees/data';
+import NextButton from '../../elements/NextButton';
+import PrevButton from '../../elements/PrevButton';
 import CompanyPlan from './CompanyPlan';
 import IndividualPlan from './IndividualPlan';
 
@@ -32,18 +34,8 @@ const Plan = ({ membership, onPrev, onNext, plan }) => {
       </div>
       <div>
         <div className="flex justify-between mt-16 mb-8">
-          <button
-            className="text-blue border border-blue rounded-full px-6 py-2 hover:shadow-lg"
-            onClick={onPrev}
-          >
-            Previous
-          </button>
-          <button
-            className="text-white bg-blue rounded-full px-6 py-2 hover:shadow-lg"
-            onClick={() => onNext(selected)}
-          >
-            Next Step
-          </button>
+          <PrevButton onClick={onPrev} />
+          <NextButton onClick={() => onNext(selected)} />
         </div>
       </div>
     </div>

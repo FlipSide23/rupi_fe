@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { FaUser, FaUsers } from 'react-icons/fa';
+import NextButton from '../elements/NextButton';
 
 const MembershipCategory = ({ onNext, membership }) => {
   const [selectedCategory, setSelectedCategory] = useState(
@@ -46,12 +47,7 @@ const MembershipCategory = ({ onNext, membership }) => {
         </div>
       </div>
       <div className="flex justify-end mt-16 mb-8">
-        <button
-          className="text-white bg-blue rounded-full px-6 py-2 hover:shadow-lg"
-          onClick={() => onNext(selectedCategory)}
-        >
-          Next Step
-        </button>
+        <NextButton onClick={() => onNext(selectedCategory)} />
       </div>
     </div>
   );

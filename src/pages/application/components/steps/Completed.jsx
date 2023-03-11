@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import success from '../../../../assets/images/application/success.svg';
+import PrevButton from '../elements/PrevButton';
 
 const Completed = ({ onPrev }) => {
   return (
@@ -23,12 +24,7 @@ const Completed = ({ onPrev }) => {
       </div>
       <div>
         <div className="flex justify-between mt-16 mb-8">
-          <button
-            className="text-blue border border-blue rounded-full px-6 py-2 hover:shadow-lg"
-            onClick={onPrev}
-          >
-            Previous
-          </button>
+          <PrevButton onClick={onPrev} />
         </div>
       </div>
     </div>

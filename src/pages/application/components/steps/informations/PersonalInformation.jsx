@@ -14,6 +14,7 @@ import {
   FaUniversity,
   FaUsers,
 } from 'react-icons/fa';
+import { countries } from '../../../data/countries';
 
 const PersonalInformation = () => {
   return (
@@ -38,7 +39,14 @@ const PersonalInformation = () => {
           />
         </div>
         <div className="flex md:space-x-10 flex-col md:flex-row">
-          <SelectTextField label="Gender" hint="Select gender" />
+          <SelectTextField
+            label="Gender"
+            hint="Select gender"
+            options={[
+              { value: 'male', label: 'Male' },
+              { value: 'female', label: 'Female' },
+            ]}
+          />
           <TextField
             label="Email"
             hint="Enter your email address here"
@@ -51,7 +59,14 @@ const PersonalInformation = () => {
             hint="+250 788 6385 773"
             suffix={<FaPhoneAlt />}
           />
-          <SelectTextField label="Nationality" hint="Rwanda" />
+          <SelectTextField
+            label="Nationality"
+            hint="Rwanda"
+            options={countries.map(country => ({
+              value: country.name,
+              label: country.name,
+            }))}
+          />
         </div>
         <div className="flex md:space-x-10 flex-col md:flex-row">
           <TextField
@@ -62,6 +77,7 @@ const PersonalInformation = () => {
           <TextField
             label="Date of Birth"
             hint="24-feb-2014"
+            isDate={true}
             suffix={<FaCalendarAlt />}
           />
         </div>
@@ -89,6 +105,10 @@ const PersonalInformation = () => {
           <SelectTextField
             label="Level of Education"
             hint="Bachelors degree"
+            options={[
+              { value: 'bachelor', label: 'Bachelor' },
+              { value: 'secondary', label: 'High school' },
+            ]}
           />
           <TextField
             label="Field of specialization"
@@ -97,8 +117,18 @@ const PersonalInformation = () => {
           />
         </div>
         <div className="flex md:space-x-10 flex-col md:flex-row">
-          <SelectTextField label="Year of Graduation" hint="2017" />
-          <ChooseFileField label="Field of specialization" />
+          <SelectTextField
+            label="Year of Graduation"
+            hint="2017"
+            options={[
+              { value: '2017', label: '2017' },
+              { value: '2016', label: '2016' },
+              { value: '2015', label: '2015' },
+              { value: '2014', label: '2014' },
+              { value: '2013', label: '2013' },
+            ]}
+          />
+          <ChooseFileField label="Diplomes and Certificates" />
         </div>
       </div>
       <div className="mb-2">

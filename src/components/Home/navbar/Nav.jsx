@@ -104,7 +104,7 @@ export const Nav = () => {
                         <NavLink
                           to={item.url}
                           key={index}
-                          className="text-white py-1.5 hover:border-b-[2px] hover:border-white transition duration-300 ease-out"
+                          className="text-white py-1.5 hover:border-b-[2px] hover:border-white transition duration-300 ease-out text-xs lg:text-[16px]"
                         >
                           {item.text}
                         </NavLink>

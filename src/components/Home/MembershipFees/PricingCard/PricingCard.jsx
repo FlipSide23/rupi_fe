@@ -32,7 +32,7 @@ const PricingCard = ({
       {selector ? (
         <button
           onClick={selector}
-          className={`border border-green-702 px-12 py-3 rounded-md font-semibold tracking-wide text-sm ${
+          className={`border border-green-702 px-4 py-1 lg:px-12 lg:py-3 rounded-md font-semibold tracking-wide text-xs lg:text-sm ${
             isPrimary ? 'text-white bg-green-702' : 'text-green-702'
           }`}
         >

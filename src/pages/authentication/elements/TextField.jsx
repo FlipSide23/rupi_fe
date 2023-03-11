@@ -9,7 +9,7 @@ const TextField = ({ type, label, hint }) => {
         placeholder={hint}
         id={label}
         name={label}
-        className="border-0 ring-0 bg-gray-200 px-4 py-2 rounded-md my-2 placeholder:text-xs text-sm"
+        className="border-0 ring-0 bg-gray-200 px-4 py-2 rounded-md my-2 placeholder:text-xs text-sm "
       />
     </div>
   );

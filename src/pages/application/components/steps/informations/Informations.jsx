@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import NextButton from '../../elements/NextButton';
+import PrevButton from '../../elements/PrevButton';
 import CompanyInformation from './CompanyInformation';
 import PersonalInformation from './PersonalInformation';
 
@@ -26,18 +28,8 @@ const Informations = ({ membership, onPrev, onNext }) => {
       </div>
       <div>
         <div className="flex justify-between mt-16 mb-8">
-          <button
-            className="text-blue border border-blue rounded-full px-6 py-2 hover:shadow-lg"
-            onClick={onPrev}
-          >
-            Previous
-          </button>
-          <button
-            className="text-white bg-blue rounded-full px-6 py-2 hover:shadow-lg"
-            onClick={() => onNext(info)}
-          >
-            Next Step
-          </button>
+          <PrevButton onClick={onPrev} />
+          <NextButton onClick={() => onNext(info)} />
         </div>
       </div>
     </div>

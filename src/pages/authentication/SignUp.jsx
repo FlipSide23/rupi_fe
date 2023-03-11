@@ -57,13 +57,7 @@ const SignUp = () => {
           </Link>
         </div>
       </div>
-      <div className="w-full h-full hidden md:block">
-        <img
-          src="https://source.unsplash.com/random"
-          className="object-cover h-full w-full"
-          alt="sign up user"
-        />
-      </div>
+      <div className="w-full h-full hidden md:block bg-[url('../images/signUp/signUpImage.jpeg')]"></div>
     </div>
   );
 };
