@@ -3,7 +3,7 @@ import React from 'react';
 export const Subscribe = () => {
   return (
     <div className="mt-auto flex flex-col items-center w-full bg-white py-6 md:py-12 px-8">
-      <div className="w-full p-8 md:p-12 flex flex-col max-w-6xl bg-gradient-to-br from-[#395C4D] to-[#132D1F]">
+      <div className="w-full p-8 md:p-12 flex flex-col max-w-6xl bg-gradient-to-br from-[#395C4D] to-[#132D1F]" data-aos="flip-left">
         <div className="flex flex-col items-center justify-center w-full">
           <p className="text-center max-w-xl leading-relaxed tracking-wide text-xl md:text-2xl font-bold text-white">
             Subscribe on our newsletter to get information, updates

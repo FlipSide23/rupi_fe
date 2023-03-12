@@ -7,7 +7,7 @@ export const Services = () => {
   const [selectedService, setSelectedService] = useState(0);
 
   return (
-    <div className="px-16 py-8 text-center bg-[#F6FBF9]">
+    <div className="px-16 py-8 text-center bg-[#F6FBF9]" data-aos="fade-right">
       <h1 className="font-bold text-2xl">How can we help you?</h1>
       <p className="py-6 text-sm text-neutral-400">
         Let's do great work together
