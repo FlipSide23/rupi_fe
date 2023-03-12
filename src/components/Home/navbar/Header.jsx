@@ -1,6 +1,6 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
-import headerImage from "../../../assets/images/header/headerImage.jpg";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import headerImage from '../../../assets/images/header/headerImage.jpg';
 
 export const Header = () => {
   return (
@@ -9,13 +9,15 @@ export const Header = () => {
         <img
           src={headerImage}
           alt="header introduction"
-          className="object-cover h-[640px]"
+          className="object-cover h-[640px] w-full"
         />
       </div>
       <div className="absolute top-0 bottom-0 right-0 left-0 bg-[#031b0cae] flex flex-col justify-center items-center px-4 md:px-36 text-center">
         <div className="flex justify-center items-end space-x-2 mt-16 md:space-x-12">
           <div className="w-20 h-1 mb-1 bg-neutral-400"></div>
-          <h2 className="font-bold text-neutral-300 text-3xl">The Best</h2>
+          <h2 className="font-bold text-neutral-300 text-3xl">
+            The Best
+          </h2>
           <div className="w-20 h-1 mb-1 bg-neutral-400"></div>
         </div>
 
@@ -23,8 +25,9 @@ export const Header = () => {
           Urban Planning Institute
         </h1>
         <p className="text-neutral-400 text-lg">
-          A community with professional urban planners where you can easily
-          enter the most precegious network in the field of urban planning
+          A community with professional urban planners where you can
+          easily enter the most precegious network in the field of
+          urban planning
         </p>
         <div className="mt-12">
           <NavLink
