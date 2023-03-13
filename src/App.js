@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-import { Route, Routes } from "react-router-dom";
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { Route, Routes } from 'react-router-dom';
 import { Footer } from './components/Home/Footer/Footer';
 import { Nav } from './components/Home/navbar/Nav';
 import { Home } from './pages/Home';
@@ -17,11 +17,13 @@ import Application from './pages/application/Application';
 import SignUp from './pages/authentication/SignUp';
 import Login from './pages/authentication/Login';
 import NotFoundPage from './pages/NotFound';
+import Pay from './pages/Pay';
+import PaymentMethods from './pages/PaymentMethods';
 
 export const App = () => {
   useEffect(() => {
-    AOS.init({duration: 2000});
-   }, [])
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <>
       <Nav />
@@ -37,6 +39,8 @@ export const App = () => {
         <Route path="/application" element={<Application />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/pay" element={<Pay />} />
+        <Route path="/payment-methods" element={<PaymentMethods />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />
