@@ -45,7 +45,7 @@ export const Footer = () => {
             <h3 className="font-bold text-dark-green">Menu</h3>
             <div className="flex flex-col space-y-2 mt-3">
               {firstLinks.map((link, index) => (
-                <NavLink to={link.url} className="">
+                <NavLink to={link.url} className="" key={index}>
                   {link.label}
                 </NavLink>
               ))}
@@ -56,7 +56,7 @@ export const Footer = () => {
             <h3 className="font-bold text-dark-green">Partners</h3>
             <div className="flex flex-col space-y-2 mt-3">
               {partners.map((partner, index) => (
-                <NavLink to={partner.link} className="">
+                <NavLink to={partner.link} className="" key={index}>
                   {partner.name}
                 </NavLink>
               ))}
@@ -67,7 +67,7 @@ export const Footer = () => {
             <h3 className="font-bold text-dark-green">Other Links</h3>
             <div className="flex flex-col space-y-2 mt-3">
               {otherLinks.map((link, index) => (
-                <NavLink to={link.url} className="">
+                <NavLink to={link.url} className="" key={index}>
                   {link.label}
                 </NavLink>
               ))}

@@ -21,6 +21,8 @@ module.exports = {
         'green-702': '#3A4F39',
         'gray-101': '#ABABAB',
         'gray-302': '#DEDEDE',
+        'gray-401': '#F6F6F6',
+         blue: '#4A3AFF',
       },
     },
   },

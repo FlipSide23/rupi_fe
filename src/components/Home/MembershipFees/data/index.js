@@ -79,3 +79,63 @@ export const pricingData = [
     ],
   },
 ];
+
+export const companyPricingData = [
+  {
+    price: '$5',
+    title: 'MONTHLY',
+    features: [
+      {
+        icon: <FaCheck />,
+        text: 'Lorem ipsum',
+        active: true,
+      },
+      {
+        icon: <FaTimes />,
+        text: 'Lorem ipsum',
+        active: false,
+      },
+      {
+        icon: <FaTimes />,
+        text: 'Lorem ipsum',
+        active: false,
+      },
+      {
+        icon: <FaTimes />,
+        text: 'Lorem ipsum',
+        active: false,
+      },
+    ],
+  },
+  {
+    price: '$25',
+    title: 'YEARLY',
+    features: [
+      {
+        icon: <FaCheck />,
+        text: 'Lorem ipsum',
+        active: true,
+      },
+      {
+        icon: <FaCheck />,
+        text: 'Lorem ipsum',
+        active: true,
+      },
+      {
+        icon: <FaTimes />,
+        text: 'Lorem ipsum',
+        active: false,
+      },
+      {
+        icon: <FaTimes />,
+        text: 'Lorem ipsum',
+        active: false,
+      },
+    ],
+  },
+];
+
+export const defaultPlans = {
+  individual: 'JUNIOR',
+  company: 'MONTHLY',
+};

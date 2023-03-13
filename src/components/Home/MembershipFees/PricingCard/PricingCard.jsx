@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
 const PricingCard = ({
   data = pricingData[0],
   isPrimary = false,
+  selector = false,
 }) => {
   return (
     <div className="border border-gray-101 flex flex-col items-center shadow-md space-y-4 md:space-y-6 bg-white rounded-md p-8 py-12">
@@ -28,14 +29,25 @@ const PricingCard = ({
         ))}
       </div>
 
-      <NavLink
-        to="/pay"
-        className={`border border-green-702 px-12 py-3 rounded-md font-semibold tracking-wide ${
-          isPrimary ? 'text-white bg-green-702' : 'text-green-702'
-        }`}
-      >
-        Pay now
-      </NavLink>
+      {selector ? (
+        <button
+          onClick={selector}
+          className={`border border-green-702 px-4 py-1 lg:px-12 lg:py-3 rounded-md font-semibold tracking-wide text-xs lg:text-sm ${
+            isPrimary ? 'text-white bg-green-702' : 'text-green-702'
+          }`}
+        >
+          Choose Plan
+        </button>
+      ) : (
+        <NavLink
+          to="/pay"
+          className={`border border-green-702 px-12 py-3 rounded-md font-semibold tracking-wide ${
+            isPrimary ? 'text-white bg-green-702' : 'text-green-702'
+          }`}
+        >
+          Pay now
+        </NavLink>
+      )}
     </div>
   );
 };
