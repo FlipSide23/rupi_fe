@@ -4,7 +4,7 @@ import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 const Pagination = ({ onNext, activePage, onPrev, isLast }) => {
   return (
-    <div className="flex justify-center items-center my-4">
+    <div className="flex justify-center items-center my-4 mt-12">
       <div
         className={`${
           activePage <= 1 ? 'bg-slate-400' : 'bg-green cursor-pointer'

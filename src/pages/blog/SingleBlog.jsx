@@ -26,24 +26,25 @@ const SingleBlog = () => {
         {blog.title}
       </h1>
 
-      <div className="flex md:items-center text-sm flex-col space-y-2 md:space-y-0 md:flex-row">
-        <div className="flex space-x-2 items-center">
-          <img
-            src={blog.author.img}
-            alt={blog.author.name}
-            className="h-8 w-8 md:h-10 md:w-10 rounded-full"
-          />
+      <div className="flex space-x-2 items-center">
+        <img
+          src={blog.author.img}
+          alt={blog.author.name}
+          className="h-9 w-9 md:h-10 md:w-10 rounded-full"
+        />
+        <div className="flex flex-col md:flex-row md:items-center justify-start">
           <Link
             to={`/blog/author/${blog.author.id}`}
-            className="text-slate-400 font-bold"
+            className="text-slate-400 font-semibold"
           >
             {blog.author.name}
           </Link>
-        </div>
 
-        <span className="text-xs text-slate-400 pl-2 md:pl-4">
-          /{moment(blog.createdAt).format('LL')}
-        </span>
+          <span className="text-[12px] font-light md:font-normal md:text-xs text-slate-400 md:pl-4 flex">
+            <span className="hidden md:block">/</span>
+            {moment(blog.createdAt).format('LL')}
+          </span>
+        </div>
       </div>
       <div className="flex mt-8 md:space-x-6 items-start flex-col space-y-4 md:space-y-0 md:flex-row">
         <div className="w-full">

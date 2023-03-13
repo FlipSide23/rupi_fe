@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Pagination from './Pagination';
 
 const Blogs = ({ blogs, cols }) => {
-  const pageSize = 5;
+  const pageSize = 6;
   const [paginated, setPaginated] = useState([]);
   const [indexes, setIndexes] = useState({
     start: 0,
@@ -52,19 +52,22 @@ const Blogs = ({ blogs, cols }) => {
                   <img
                     src={blog.author.img}
                     alt={blog.author.name}
-                    className="h-8 w-8 md:h-10 md:w-10 rounded-full"
+                    className="h-9 w-9 md:h-10 md:w-10 rounded-full"
                   />
-                  <Link
-                    to={`/blog/author/${blog.author.id}`}
-                    className="text-slate-400"
-                  >
-                    {blog.author.name}
-                  </Link>
-                </div>
+                  <div className="flex flex-col md:flex-row md:items-center justify-start">
+                    <Link
+                      to={`/blog/author/${blog.author.id}`}
+                      className="text-slate-400"
+                    >
+                      {blog.author.name}
+                    </Link>
 
-                <span className="text-xs text-slate-400 pl-2 md:pl-4">
-                  /{moment(blog.createdAt).format('LL')}
-                </span>
+                    <span className="text-[12px] font-light md:font-normal md:text-xs text-slate-400 md:pl-4 flex">
+                      <span className="hidden md:block">/</span>
+                      {moment(blog.createdAt).format('LL')}
+                    </span>
+                  </div>
+                </div>
               </div>
             </div>
           );
@@ -85,11 +88,6 @@ const Blogs = ({ blogs, cols }) => {
           const end = indexes.start;
           const start = end - pageSize;
           if (start < 0) start = 0;
-          // const start = indexes.end;
-          // let end = start + pageSize;
-          // if (end + 1 > blogs.length) {
-          //   end = blogs.length;
-          // }
           setIndexes({ start, end });
         }}
       />
