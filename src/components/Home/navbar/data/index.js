@@ -25,7 +25,7 @@ export const menuITems = [
   },
   {
     text: "Blog",
-    url: "/blogs",
+    url: "/blog",
   },
   {
     text: "Publication",
