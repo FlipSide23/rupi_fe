@@ -11,7 +11,7 @@ const TeamMember = ({ member = teamMembers[0].members[0] }) => {
           <h2 className="text-xl font-bold text-white">
             {member.name}
           </h2>
-          <p className="text-lg text-white">{member.position}</p>
+          <p className="text-white mt-3">{member.position}</p>
 
           <div className="mt-4 md:mt-6 flex flex-wrap items-center space-x-3">
             {member.social.map((media, index) => (

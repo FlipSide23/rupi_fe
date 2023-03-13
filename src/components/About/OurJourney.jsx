@@ -14,12 +14,12 @@ const OurJourney = () => {
         </p>
 
         <div
-          className="flex flex-wrap justify-center items-center bg-no-repeat bg-left-top mt-6 md:mt-10 gap-5 gap-x-10 min-h-[360px] w-full"
+          className="flex flex-wrap bg-no-repeat bg-center py-6 px-4 bg-cover mt-6 md:mt-10 gap-5 gap-x-10 min-h-[360px] h-fit w-full"
           style={{ backgroundImage: `url(${bg})` }}
         >
           {journeyData.map((journey, index) => (
-            <div className="flex space-y-3 md:space-y-6 flex-col bg-white/30 backdrop-blur border-white border min-h-[232px] w-[341.33px] py-8 px-4">
-              <div className="flex flex-col items-center text-center">
+            <div className="flex space-y-3 md:space-y-6 flex-col justify-center bg-white/30 backdrop-blur border-white border min-h-[232px] w-[341.33px] py-8 px-4">
+              <div className="flex flex-col space-y-2 items-center text-center">
                 <p className="text-3xl md:text-4xl font-black text-white">
                   {journey.count}
                 </p>
