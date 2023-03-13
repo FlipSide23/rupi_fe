@@ -20,7 +20,7 @@
 }
 
 .active {
-  @apply border-b-[2px] border-white;
+  @apply opacity-70;
 }
 
 input[type='date']::-webkit-calendar-picker-indicator {

@@ -3,7 +3,7 @@ import { companyValues } from './data/values';
 
 const OurValues = () => {
   return (
-    <div className="mt-auto flex flex-col items-center w-full bg-gray-401 px-8 py-6 md:py-12">
+    <div className="mt-auto flex flex-col items-center w-full bg-gray-401 px-8 py-6 md:py-12" data-aos="fade-up">
       <div className="flex flex-col max-w-6xl w-full">
         <h1 className="text-center text-lg md:text-xl font-bold text-brand-green">
           Our Values

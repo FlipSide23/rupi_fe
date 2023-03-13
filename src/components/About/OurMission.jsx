@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 
 const OurMission = () => {
   return (
-    <div className="mt-auto flex flex-col items-center w-full bg-white px-8 py-6 md:py-12">
+    <div className="mt-auto flex flex-col items-center w-full bg-white px-8 py-6 md:py-12" data-aos="fade-up">
       <div className="flex flex-col gap-4 md:gap-x-16 md:justify-between md:items-center items-start md:flex-row max-w-6xl w-full">
         <div className="flex space-y-3 md:space-y-6 flex-col">
           <div className="flex items-center space-x-2">

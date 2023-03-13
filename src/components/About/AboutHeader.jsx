@@ -8,13 +8,13 @@ const AboutHeader = () => {
       style={{ backgroundImage: `url(${about})` }}
     >
       <div className="flex flex-col max-w-6xl">
-        <h1 className="text-center font-black tracking-wide text-brand-green">
+        <h1 className="text-center font-black tracking-wide text-brand-green" data-aos="zoom-in">
           About Us
         </h1>
-        <h2 className="mt-2 text-center text-3xl md:text-4xl font-black tracking-wide">
+        <h2 className="mt-2 text-center text-3xl md:text-4xl font-black tracking-wide" data-aos="zoom-in">
           About RUPI
         </h2>
-        <p className="mt-3 text-center">
+        <p className="mt-3 text-center" data-aos="zoom-in">
           Learn more about RUPI and the team behind it
         </p>
       </div>

@@ -3,7 +3,7 @@ import React from 'react';
 const Background = () => {
   return (
     <div className="mt-auto flex flex-col items-center w-full bg-gray-401 px-8 py-6 md:py-12">
-      <div className="flex flex-col max-w-6xl w-full">
+      <div className="flex flex-col max-w-6xl w-full" data-aos="fade-up">
         <h1 className="font-black text-brand-green">Background</h1>
         <h2 className="text-3xl md:text-4xl font-extrabold tracking-wide mt-2">
           The story behind RUPI

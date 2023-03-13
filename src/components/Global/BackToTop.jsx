@@ -33,7 +33,7 @@ export const BackToTop = () => {
           className="fixed bottom-7 right-7 z-999 cursor-pointer"
           onClick={scrollToTop}
         >
-         < BsFillArrowUpCircleFill className="h-12 w-12 text-green hover:text-gray-900 transition-colors duration-300"/>
+         < BsFillArrowUpCircleFill className="h-10 w-10 text-green hover:text-gray-900 transition-colors duration-300"/>
         </div>
       )}
     </>

@@ -7,7 +7,7 @@ const OurTeam = () => {
     teamMembers[0],
   );
   return (
-    <div className="mt-auto flex flex-col items-center w-full bg-white px-8 py-6 md:py-12">
+    <div className="mt-auto flex flex-col items-center w-full bg-white px-8 py-6 md:py-12" data-aos="fade-up">
       <div className="flex flex-col max-w-6xl w-full">
         <h1 className="text-center tracking-wide font-black text-3xl md:text-4xl">
           Meet Our Team

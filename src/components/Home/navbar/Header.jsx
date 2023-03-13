@@ -27,7 +27,7 @@ export const Header = () => {
           enter the most precegious network in the field of urban planning
         </p>
         <NavLink
-          to="/join-us"
+          to="/application"
           data-aos="fade-up" data-aos-delay="1500"
           className="bg-green text-white py-3 mt-12 px-8 text-sm font-bold rounded-full shadow hover:shadow-none"
         >

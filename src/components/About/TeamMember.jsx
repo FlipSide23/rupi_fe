@@ -3,7 +3,7 @@ import { teamMembers } from './data/team';
 
 const TeamMember = ({ member = teamMembers[0].members[0] }) => {
   return (
-    <div className="relative flex flex-col items-center">
+    <div className="relative flex flex-col items-center" data-aos="fade-up">
       <div
         className="flex flex-col bg-white/30 backdrop-blur border-white border absolute min-h-[200px] py-8 px-4 bottom-4 left-4 right-4"
       >
