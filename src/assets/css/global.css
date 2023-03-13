@@ -10,21 +10,32 @@
   body {
     @apply font-sans bg-white text-black m-0 p-0 text-base;
   }
+
+  .simplebar-scrollbar::before {
+    display: none;
+  }
+
+  .simplebar-scrollbar .simplebar-scrollbar-thumb {
+    background-color: green;
+  }
+
+  .triangle-up {
+    width: 0;
+    height: 0;
+    border-right: 108px solid transparent;
+    border-bottom: 144px solid #fff;
+  }
+  
+  .active {
+    @apply opacity-70;
+  }
+  
+  input[type='date']::-webkit-calendar-picker-indicator {
+    filter: invert(59%) sepia(100%) saturate(2705%) hue-rotate(181deg)
+      brightness(99%) contrast(90%);
+    /* color: #008D41;  */
+  }
+
 }
 
-.triangle-up {
-  width: 0;
-  height: 0;
-  border-right: 108px solid transparent;
-  border-bottom: 144px solid #fff;
-}
 
-.active {
-  @apply opacity-70;
-}
-
-input[type='date']::-webkit-calendar-picker-indicator {
-  filter: invert(59%) sepia(100%) saturate(2705%) hue-rotate(181deg)
-    brightness(99%) contrast(90%);
-  /* color: #008D41;  */
-}
