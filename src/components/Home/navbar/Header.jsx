@@ -14,32 +14,17 @@ export const Header = () => {
       </div>
       <div className="absolute top-0 bottom-0 right-0 left-0 bg-[#031b0cae] flex flex-col justify-center items-center px-4 md:px-36 text-center">
         <div className="flex justify-center items-end space-x-2 mt-16 md:space-x-12">
-<<<<<<< HEAD
           <div className="w-20 h-1 mb-1 bg-neutral-400" data-aos="zoom-in"></div>
           <h2 className="font-bold text-neutral-300 text-3xl" data-aos="zoom-in">The Best</h2>
           <div className="w-20 h-1 mb-1 bg-neutral-400" data-aos="zoom-in"></div>
-=======
-          <div className="w-20 h-1 mb-1 bg-neutral-400"></div>
-          <h2 className="font-bold text-neutral-300 text-3xl">
-            The Best
-          </h2>
-          <div className="w-20 h-1 mb-1 bg-neutral-400"></div>
->>>>>>> master
         </div>
 
         <h1 className="text-6xl font-bold text-white my-4 md:my-12" data-aos="fade-up" data-aos-delay="500">
           Urban Planning Institute
         </h1>
-<<<<<<< HEAD
         <p className="text-neutral-400 text-lg" data-aos="fade-up" data-aos-delay="1000">
           A community with professional urban planners where you can easily
           enter the most precegious network in the field of urban planning
-=======
-        <p className="text-neutral-400 text-lg">
-          A community with professional urban planners where you can
-          easily enter the most precegious network in the field of
-          urban planning
->>>>>>> master
         </p>
         <NavLink
           to="/join-us"

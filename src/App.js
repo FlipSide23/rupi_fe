@@ -2,14 +2,6 @@ import React, { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { Route, Routes } from "react-router-dom";
-import { Home } from './pages/Home'
-import { About } from './pages/About'
-import { Blog } from './pages/Blog'
-import { Membership } from './pages/Membership'
-import { Projects } from './pages/Projects'
-import { Publication } from './pages/Publication'
-import { Services } from './pages/Services'
-import { Disciplines } from './pages/Disciplines'
 import { Footer } from './components/Home/Footer/Footer';
 import { Nav } from './components/Home/navbar/Nav';
 import { Home } from './pages/Home';
@@ -20,10 +12,10 @@ import { Projects } from './pages/Projects';
 import { Publication } from './pages/Publication';
 import { Services } from './pages/Services';
 import { Disciplines } from './pages/Disciplines';
+import { BackToTop } from './components/Global/BackToTop';
 import Application from './pages/application/Application';
 import SignUp from './pages/authentication/SignUp';
 import Login from './pages/authentication/Login';
-import { Route, Routes } from 'react-router-dom';
 import NotFoundPage from './pages/NotFound';
 
 export const App = () => {
@@ -48,6 +40,7 @@ export const App = () => {
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />
+      <BackToTop />
     </>
   );
 };

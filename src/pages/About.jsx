@@ -9,13 +9,13 @@ import OurJourney from '../components/About/OurJourney';
 
 export const About = () => {
   return (
-    <Layout>
+    <>
       <AboutHeader />
       <Background />
       <OurMission />
       <OurValues />
       <OurTeam />
       <OurJourney />
-    </Layout>
+    </>
   );
 };
