@@ -17,6 +17,7 @@ import Application from './pages/application/Application';
 import SignUp from './pages/authentication/SignUp';
 import Login from './pages/authentication/Login';
 import NotFoundPage from './pages/NotFound';
+import Pay from './pages/Pay';
 
 export const App = () => {
   useEffect(() => {
@@ -37,6 +38,7 @@ export const App = () => {
         <Route path="/application" element={<Application />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/pay" element={<Pay />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />
